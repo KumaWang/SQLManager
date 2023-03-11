@@ -1,0 +1,31 @@
+﻿namespace Manager.Page
+{
+    public enum PageEditorType
+    {
+        None,
+        Curve,
+        String,
+        Bool,
+        Char,
+        Byte,
+        SByte,
+        Short,
+        UShort,
+        Int,
+        UInt,
+        Long,
+        ULong,
+        Float,
+        Double,
+        Percentage,
+        Click,
+        Color,
+        Font,
+        SingleSelect,
+        MuiltSelect,
+        List,
+        Custom,
+        DateTime,
+        Decimal
+    }
+}
